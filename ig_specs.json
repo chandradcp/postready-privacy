@@ -1,0 +1,98 @@
+{
+  "version": 5,
+  "updatedAt": "2026-07-14",
+  "presets": [
+    {
+      "id": "feed",
+      "name": "Feed",
+      "aspectRatio": "1:1",
+      "maxWidth": 1080,
+      "maxHeight": 1080,
+      "format": "JPEG",
+      "colorProfile": "sRGB",
+      "maxFileSizeBytes": 1572864,
+      "targetFileSizeBytes": 1310720,
+      "qualityMin": 92,
+      "qualityMax": 95,
+      "defaultQuality": 93
+    },
+    {
+      "id": "portrait",
+      "name": "Portrait",
+      "aspectRatio": "4:5",
+      "maxWidth": 1080,
+      "maxHeight": 1350,
+      "format": "JPEG",
+      "colorProfile": "sRGB",
+      "maxFileSizeBytes": 1572864,
+      "targetFileSizeBytes": 1310720,
+      "qualityMin": 92,
+      "qualityMax": 95,
+      "defaultQuality": 93
+    },
+    {
+      "id": "story",
+      "name": "Story",
+      "aspectRatio": "9:16",
+      "maxWidth": 1080,
+      "maxHeight": 1920,
+      "format": "JPEG",
+      "colorProfile": "sRGB",
+      "maxFileSizeBytes": 1572864,
+      "targetFileSizeBytes": 786432,
+      "qualityMin": 92,
+      "qualityMax": 95,
+      "defaultQuality": 93
+    },
+    {
+      "id": "reels",
+      "name": "Reels Cover",
+      "aspectRatio": "9:16",
+      "maxWidth": 1080,
+      "maxHeight": 1920,
+      "format": "JPEG",
+      "colorProfile": "sRGB",
+      "maxFileSizeBytes": 1572864,
+      "targetFileSizeBytes": 786432,
+      "qualityMin": 92,
+      "qualityMax": 95,
+      "defaultQuality": 93
+    },
+    {
+      "id": "freeform",
+      "name": "Freeform",
+      "aspectRatio": "free",
+      "maxWidth": 1080,
+      "maxHeight": 1920,
+      "format": "JPEG",
+      "colorProfile": "sRGB",
+      "maxFileSizeBytes": 1572864,
+      "targetFileSizeBytes": 1048576,
+      "qualityMin": 92,
+      "qualityMax": 95,
+      "defaultQuality": 93
+    }
+  ],
+  "deviceProfiles": [
+    {
+      "manufacturer": "samsung",
+      "qualityOffset": 0,
+      "sharpenBoost": 0.05
+    },
+    {
+      "manufacturer": "google",
+      "qualityOffset": 0,
+      "sharpenBoost": 0.0
+    },
+    {
+      "manufacturer": "xiaomi",
+      "qualityOffset": 0,
+      "sharpenBoost": 0.1
+    },
+    {
+      "manufacturer": "vivo",
+      "qualityOffset": 0,
+      "sharpenBoost": 0.08
+    }
+  ]
+}
